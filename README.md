@@ -5,6 +5,6 @@ Responding To Google VRP and everyone clone and unique individual paying attenti
 
 <div align="center">
   <h3>🎵 Spontaneous Combustion: Clown Logic 🎵</h3>
-  <audio src="clown_logic.mp3/Clown_Logic.mp3" controls></audio>
+  <audio src="clown_logic.mp3" controls></audio>
   <p><i>Click play to set the mood for this repository.</i></p>
 </div>
