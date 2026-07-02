@@ -1,3 +1,9 @@
+name: Repro Workflow
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   extract-info:
     runs-on: ubuntu-latest
@@ -13,4 +19,5 @@ jobs:
             const sha = context.sha;
             console.log(`Run ID: ${run_id}`);
             console.log(`SHA: ${sha}`);
+
 
