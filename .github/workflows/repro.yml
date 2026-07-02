@@ -1,0 +1,16 @@
+jobs:
+  extract-info:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - name: Extract Metadata
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const run_id = context.runId;
+            const sha = context.sha;
+            console.log(`Run ID: ${run_id}`);
+            console.log(`SHA: ${sha}`);
+
